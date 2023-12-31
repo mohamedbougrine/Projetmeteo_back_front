@@ -1,0 +1,96 @@
+.lightModeDarkMode,
+.vectorsIcon {
+  position: absolute;
+  top: 609px;
+  left: 0;
+  width: 1280px;
+  height: 111px;
+  object-fit: cover;
+}
+.lightModeDarkMode {
+  top: 630px;
+  left: 36px;
+  width: 70px;
+  height: 70px;
+}
+.rectangle {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: #dfaa20;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-3xs);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.3);
+  width: 300px;
+  height: 45px;
+}
+.login2 {
+  position: absolute;
+  top: 13px;
+  left: 128px;
+  line-height: 20px;
+  text-transform: capitalize;
+}
+.email,
+.loginBtn,
+.password {
+  position: absolute;
+  top: 361px;
+  left: 0;
+  width: 300px;
+  height: 45px;
+}
+.email,
+.password {
+  border: 0;
+  outline: 0;
+  font-family: var(--font-lexend-deca);
+  font-size: var(--font-size-sm);
+  background-color: var(--color-darkslategray);
+  top: 252px;
+  border-radius: var(--br-3xs);
+  padding: var(--padding-smi) 21px var(--padding-xs);
+  box-sizing: border-box;
+  color: var(--color-white);
+}
+.email {
+  top: 175px;
+  padding: var(--padding-xs) 18px var(--padding-smi);
+}
+.metheoSite,
+.signIn {
+  position: absolute;
+  top: 119px;
+  left: 103px;
+}
+.signIn {
+  top: 0;
+  left: 44px;
+  font-size: 64px;
+}
+.form,
+.login1 {
+  position: absolute;
+  top: 157px;
+  left: 490px;
+  width: 300px;
+  height: 406px;
+}
+.login1 {
+  top: -155px;
+  left: -277px;
+  background-color: #e5e5e5;
+  width: 1280px;
+  height: 720px;
+  overflow: hidden;
+}
+.login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+

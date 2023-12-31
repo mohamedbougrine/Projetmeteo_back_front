@@ -1,0 +1,108 @@
+.lightModeDarkMode,
+.vectorsIcon {
+  position: absolute;
+  top: 609px;
+  left: 0;
+  width: 1280px;
+  height: 111px;
+  object-fit: cover;
+}
+.lightModeDarkMode {
+  top: 630px;
+  left: 36px;
+  width: 70px;
+  height: 70px;
+}
+.rectangle {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: #dfaa20;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-3xs);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.3);
+  width: 300px;
+  height: 45px;
+}
+.creerAccount {
+  position: absolute;
+  top: 13px;
+  left: 95px;
+  font-size: var(--font-size-base);
+  line-height: 20px;
+  text-transform: capitalize;
+  font-family: var(--font-lexend-deca);
+  color: var(--color-darkslategray);
+  text-align: center;
+}
+.email,
+.loginBtn,
+.password {
+  border: 0;
+  position: absolute;
+  left: 0;
+  width: 300px;
+  height: 45px;
+}
+.loginBtn {
+  cursor: pointer;
+  padding: 0;
+  background-color: transparent;
+  top: 361px;
+}
+.email,
+.password {
+  outline: 0;
+  font-family: var(--font-lexend-deca);
+  font-size: var(--font-size-sm);
+  background-color: var(--color-darkslategray);
+  top: 252px;
+  border-radius: var(--br-3xs);
+  padding: var(--padding-smi) 21px var(--padding-xs);
+  box-sizing: border-box;
+  color: var(--color-white);
+}
+.email {
+  top: 175px;
+  padding: var(--padding-xs) 18px var(--padding-smi);
+}
+.metheoSite,
+.signUp2 {
+  position: absolute;
+  top: 119px;
+  left: 103px;
+}
+.signUp2 {
+  top: 0;
+  left: 33px;
+  font-size: 64px;
+}
+.form,
+.signUp1 {
+  position: absolute;
+  top: 157px;
+  left: 461px;
+  width: 300px;
+  height: 406px;
+}
+.signUp1 {
+  top: -148px;
+  left: -278px;
+  background-color: #e5e5e5;
+  width: 1280px;
+  height: 720px;
+  overflow: hidden;
+}
+.signUp {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 461px;
+  overflow: hidden;
+  text-align: center;
+  font-size: var(--font-size-base);
+  color: var(--color-darkslategray);
+  font-family: var(--font-lexend-deca);
+}
